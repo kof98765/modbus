@@ -152,6 +152,7 @@ func main() {
 ```
 ### Using the server component
 See:
+* [examples/rtu_server.go](examples/rtu_server.go) for a modbus RTU example
 * [examples/tcp_server.go](examples/tcp_server.go) for a modbus TCP example
 * [examples/tls_server.go](examples/tls_server.go) for TLS and Modbus Security features
 
@@ -186,7 +187,6 @@ This behavior can be overriden by passing a log.Logger object
 through the Logger property of ClientConfiguration/ServerConfiguration.
 
 ### TODO (in no particular order)
-* Add RTU (serial) support to the server
 * Add more tests
 * Add diagnostics register support
 * Add fifo register support
