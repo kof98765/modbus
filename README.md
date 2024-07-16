@@ -33,7 +33,7 @@ $ ./modbus-cli --help
 
 ### Getting started
 ```bash
-$ go get github.com/simonvetter/modbus
+$ go get github.com/kof98765/modbus
 ```
 
 ### Using the client
